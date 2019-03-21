@@ -1,0 +1,10 @@
+bazel/bazel-*
+pants-project/hello-world/target/*
+pants-project/scala-test/target/*
+pants-project/hello-world/project/target/*
+pants-project/scala-test/project/target/*
+pants
+pants.ini
+.cache/*
+.pants.*
+.pids/*
