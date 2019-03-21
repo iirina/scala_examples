@@ -13,3 +13,13 @@ scala_repositories()
 
 load("@io_bazel_rules_scala//scala:toolchains.bzl", "scala_register_toolchains")
 scala_register_toolchains()
+
+load("@io_bazel_rules_scala//scala:scala_maven_import_external.bzl", "scala_maven_import_external")
+scala_maven_import_external(
+	name = "scala-swing",
+	artifact = "org.scala-lang.modules:scala-swing_2.11:jar:2.1.0",
+	server_urls = [
+        "http://central.maven.org/maven2/",
+    ],
+    licenses = ["notice"],
+)

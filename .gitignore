@@ -1,4 +1,5 @@
 bazel/bazel-*
+bazel-*
 pants-project/hello-world/target/*
 pants-project/scala-test/target/*
 pants-project/hello-world/project/target/*
